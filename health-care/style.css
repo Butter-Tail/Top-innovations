@@ -1,0 +1,5 @@
+#article1-content {
+    background: url("article1-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+}
