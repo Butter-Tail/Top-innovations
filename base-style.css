@@ -72,6 +72,7 @@ a {
 /* ---------------------------------------------------------------------------*/
 #body-table {
     width: 100%;
+    line-height: 30px;
     color: rgba(255, 255, 255, 1);
     font-family: "Aerial", "GOTHIC", "Geomanist-Regular", san-serif;
 }
@@ -86,6 +87,11 @@ a {
 }
 
 /* ---------------------------------------------------------------------------*/
+
+#content-table {
+    width: 100%;
+}
+
 #subtitle-td {
     text-align: center;
 }
