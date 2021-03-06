@@ -1,0 +1,23 @@
+.know-us {
+    background: red;
+    width: 18%;
+    height: 200px;
+}
+
+.ku-details {
+    text-align: center;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.people-people-space {
+    width: 1%;
+}
+
+#body-space-left, #body-space-right {
+    width: 5%;
+}
+
+#main-people-space {
+    width: 5%;
+}

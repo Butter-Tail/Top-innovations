@@ -1,0 +1,14 @@
+#ranking-table {
+    text-align: center;
+    width: 60%;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+#ranking-table th {
+    background: rgba(29, 218, 116, 0.66);
+}
+
+#ranking-table td {
+    background: rgba(29, 115, 218, 0.66);
+}
