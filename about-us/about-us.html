@@ -12,6 +12,7 @@
         }
     </style>
 
+
 </head>
 
 <body>
@@ -33,24 +34,81 @@
 
     <table id="body-table">
         <tr>
-            <td id="body-space-left"></td>
+            <td class="body-space-left"></td>
             <td id="main-td">
 
                 <table id="content-table">
                     <tr id="subtitle-tr">
                         <td id="subtitle-td" colspan=9>
-                            <h2>Know us more</h2>
+                            <h2>Know us more<br /> <br />Done By</h2>
                         </td>
                     </tr>
                     <tr>
                         <td class="subtitle-content-space"></td>
                     </tr>
-<!-- Add the code here -->
+                    <td class="know-us ku-details" id="pra-ku-td">
+                        <b>PRANAV NAWIN E<br /><br />The Oxford Senior Secondary School<br /><br />Class: 10 C<br /><br />Roll number:26</b>
+                    </td>
+                    <td class="people-people-space"></td>
+                    <td class="know-us ku-details" id="joha-ku-td">
+                        <b>JOHANNES ABRAHAM<br /><br />The Oxford Senior Secondary School<br /><br />Class: 10 B<br /><br />Roll number:</b>
+                    </td>
+                    <td class="people-people-space"></td>
+                    <td class="know-us ku-details" id="kau-ku-td">
+                        <b>C KAUSTUBH<br /><br />The Oxford Senior Secondary School<br /><br />Class: 10 A<br /><br />Roll number:</b>
+                    </td>
+                    <td class="people-people-space"></td>
+                    <td class="know-us ku-details" id="holla-ku-td">
+                        <b>NISHANT K HOLLA<br /><br />The Oxford Senior Secondary School<br /><br />Class: 10 C<br /><br />Roll number:25</b>
+                    </td>
+                </tr>
+
                     <tr>
                 </table>
             </td>
-            <td id="body-space-right"></td>
+            <td class="body-space-right"></td>
         </tr>
+    </table>
+
+    <table id="body-table">
+        <td class="body-space-left"></td>
+        <td id="main-td">
+            <form onsubmit="on_submit()">
+                <table id="form-table">
+                    <tr id="form-tr1">
+                        <td class="form-td" id="form-td1">
+                            <label for="name">Name:</label>
+                            <input required type="text" id="name-input" name="name">
+                        </td>
+                        <td class="form-td" id="form-td2">
+                            <label for="email">Email:</label>
+                            <input required type="text" id="email-input" name="email">
+                        </td>
+                    </tr>
+                    <tr id="form-tr2">
+                        <td class="form-td" id="form-td3" colspan=2>
+                            <br /><br />
+                            <center>
+                                <label for="comment">Comment</label>
+                            </center>
+                            <textarea required name="comment" id="comment-area" cols="80" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr id="form-tr3">
+                        <td class="form-td" id="form-td4">&nbsp;</td>
+                        <td class="form-td" id="form-td5">
+                            <input type="submit" value="Submit" id="submit-button">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <script>
+                function on_submit(){
+                    alert("Comment Submitted");
+                }
+            </script>
+        </td>
+        <td class="body-space-right"></td>
     </table>
 
 </body>

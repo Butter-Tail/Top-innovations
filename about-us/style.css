@@ -1,23 +1,67 @@
-.know-us {
-    background: red;
+@font-face {
+    font-family: "MTCORSVA";
+    src: url("../fonts/MTCORSVA.ttf")
+}
+
+input {
+    margin: 10px;
+    padding: 5px 20px;
+    border: 4px solid rgba(52, 177, 42, 0.6);
+    border-radius: 20px;
+    width: 20vw;
+    height: 35px;
+    background: rgba(219, 212, 212, 1);
+}
+
+textarea {
+    padding: 20px 20px;
+    padding: 5px 20px;
+    border: 4px solid rgba(52, 177, 42, 0.6);
+    border-radius: 20px;
+    background: rgba(219, 212, 212, 1);
+    font-size: 1.4vw;
+    resize: vertical;
+    min-height: 100px;
+
+}
+
+.know-us, .form {
+    background: rgba(52, 177, 42, 0.6);
     width: 18%;
     height: 200px;
+    padding: 5px;
 }
 
 .ku-details {
     text-align: center;
     vertical-align: top;
-    padding-top: 5px;
+    padding: 10px;
 }
 
 .people-people-space {
     width: 1%;
 }
 
-#body-space-left, #body-space-right {
-    width: 5%;
+.body-space-left, .body-space-right {
+    width: 3%;
 }
 
-#main-people-space {
-    width: 5%;
+#form-table {
+    width: 100%;
+}
+
+.form-td {
+    text-align: center;
+}
+
+#submit-button {
+    height: 50px;
+    width: 20%;
+    border-color: rgba(0, 0, 0, 0.6);
+    background: rgba(52, 177, 42, 0.6);
+    color: rgba(0, 0, 0, 1);
+    font-family: "MTCORSVA";
+    font-size: 1.4vw;
+    padding: 3px;
+
 }
