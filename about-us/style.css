@@ -65,3 +65,20 @@ textarea {
     padding: 3px;
 
 }
+
+.radio {
+    padding: 0px;
+    margin: 0px;
+    width: 2%;
+}
+
+.radio-lable {
+    text-align: center;
+    vertical-align: top;
+    padding-top: 0.5vw;
+    margin-right: 10%;
+}
+
+#form-space {
+    height: 5%;
+}
