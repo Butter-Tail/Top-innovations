@@ -76,7 +76,7 @@ a {
 } */
 .nav.selected {
     border-color: rgba(255, 255, 255, 1);
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     background: rgba(18, 18, 18, 1);
     /* box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.8); */
 }
@@ -95,7 +95,7 @@ a {
 }
 
 #main-td {
-    background: rgba(237,230,102, 0.7);
+    background: rgba(225,235,247, 0.7);
     padding: 30px;
 }
 
