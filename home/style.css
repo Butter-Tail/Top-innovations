@@ -12,3 +12,7 @@
 #ranking-table td {
     background: rgba(29, 115, 218, 0.66);
 }
+
+iframe {
+    border-radius: 20px;
+}
