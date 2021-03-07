@@ -46,7 +46,7 @@ a {
     padding: 10px 20px;
     border: 3px solid rgba(24, 24, 24, 1);
     border-radius: 10px;
-    /* box-shadow: 0px 0px 20px 5px rgba(255, 33, 38, 0.8); */
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.9);
     background: rgba(61, 61, 61, 1);
 }
 
@@ -89,6 +89,7 @@ a {
     color: rgba(0, 0, 0, 1);
     font-family: "MTCORSVA", "Aerial", "Geomanist-Regular", san-serif;
     font-size: 2vw;
+    margin-bottom: 30px;
 }
 
 #body-space-left, #body-space-right {
