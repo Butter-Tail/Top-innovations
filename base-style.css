@@ -50,18 +50,22 @@ a {
 }
 
 .title {
-    width: 45%;
+    width: 25%;
     font-size: 1.2vw;
 }
 
 .nav {
-    width: 9%;
+    width: 14%;
     text-align: center;
+}
+
+.non-topic {
+    width: 9%;
 }
 
 .nav.not-selected {
     color: rgba(168, 168, 168, 1);
-    font-size: 1.2vw;
+    font-size: 1.4vw;
 }
 
 /* .nav.not-selected:hover {
@@ -81,17 +85,17 @@ a {
 #body-table {
     width: 100%;
     line-height: 30px;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
     font-family: "MTCORSVA", "Aerial", "Geomanist-Regular", san-serif;
     font-size: 2vw;
 }
 
 #body-space-left, #body-space-right {
-    width: 15%;
+    width: 5%;
 }
 
 #main-td {
-    background: rgba(54, 54, 54, 0.74);
+    background: rgba(237,230,102, 0.7);
     padding: 30px;
 }
 
