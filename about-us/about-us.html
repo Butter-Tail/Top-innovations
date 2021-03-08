@@ -11,7 +11,14 @@
             background-size: cover;
         }
     </style>
-
+    <script>
+        function on_submit(){
+            var msg = "Thank you ";
+            var name = document.getElementById("name-input").value;
+            msg += name + ", your comment has been submitted."
+            alert(msg);
+        }
+    </script>
 
 </head>
 
@@ -99,15 +106,15 @@
                     <tr id="form-tr3">
                         <td class="form-td" id="form-td4" colspan=2>
                             <input required class="radio" type="radio" name="rating" value="1">
-                            <label class="radio-lable" for="rating">1</label>
+                            <label class="radio-lable" for="rating">1 Star</label>
                             <input class="radio"type="radio" name="rating" value="2">
-                            <label class="radio-lable" for="rating">2</label>
+                            <label class="radio-lable" for="rating">2 Stars</label>
                             <input class="radio"type="radio" name="rating" value="3">
-                            <label class="radio-lable" for="rating">3</label>
+                            <label class="radio-lable" for="rating">3 Stars</label>
                             <input class="radio"type="radio" name="rating" value="4">
-                            <label class="radio-lable" for="rating">4</label>
+                            <label class="radio-lable" for="rating">4 Stars</label>
                             <input class="radio"type="radio" name="rating" value="5">
-                            <label class="radio-lable" for="rating">5</label>
+                            <label class="radio-lable" for="rating">5 Stars</label>
                         </td>
                     </tr>
                     <tr id="form-tr4">
@@ -127,11 +134,6 @@
                     </tr>
                 </table>
             </form>
-            <script>
-                function on_submit(){
-                    alert("Comment Submitted");
-                }
-            </script>
         </td>
         <td class="body-space-right"></td>
     </table>

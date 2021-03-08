@@ -24,11 +24,6 @@ html, body {
     min-height: 100%;
 }
 
-body {
-    background: url("bg1.jpg");
-    background-size: contain;
-}
-
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
@@ -69,12 +64,11 @@ a {
     font-size: 1.4vw;
 }
 
-/* .nav.not-selected:hover {
-    color: rgba(255, 255, 255, 0.8);
-    border-color: rgba(255, 255, 255, 0.8);
-    background: rgba(255, 33, 38, 0.8);
+.nav.not-selected:hover {
+    border-color: rgba(255, 255, 255, 05);
+    background: rgba(18, 18, 18, 0.7);
     box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.5);
-} */
+}
 .nav.selected {
     border-color: rgba(255, 255, 255, 1);
     font-size: 1.4vw;
