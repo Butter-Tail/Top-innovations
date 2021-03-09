@@ -12,7 +12,7 @@
         }
     </style>
     <script>
-        function on_submit(){
+        function on_submit() {
             var msg = "Thank you ";
             var name = document.getElementById("name-input").value;
             msg += name + ", your comment has been submitted."
@@ -23,7 +23,6 @@
 </head>
 
 <body>
-
     <table id="nav-title-table" cellspacing=10>
         <tr id="nav-title-row">
             <td class="nav not-selected non-topic"><a href="../home/index.html">Home</a></td>
@@ -68,13 +67,13 @@
                     <td class="know-us ku-details" id="holla-ku-td">
                         <b>NISHANT K HOLLA<br /><br />The Oxford Senior Secondary School<br /><br />Class: 10 C<br /><br />Roll number: 25</b>
                     </td>
-                </tr>
-
-                    <tr>
-                </table>
-            </td>
-            <td class="body-space-right"></td>
         </tr>
+
+        <tr>
+    </table>
+    </td>
+    <td class="body-space-right"></td>
+    </tr>
     </table>
 
     <table id="body-table">
@@ -83,16 +82,18 @@
             <form onsubmit="on_submit()">
                 <table id="form-table">
                     <tr id="heading">
-                        <td style="text-align: center;" colspan=2><h2>Contact us</h2><br /><br /></td>
+                        <td style="text-align: center;" colspan=2>
+                            <h2>Contact us</h2><br /><br />
+                        </td>
                     </tr>
                     <tr id="form-tr1">
                         <td class="form-td" id="form-td1">
                             <label for="name">Name:</label>
-                            <input required type="text" id="name-input" name="name">
+                            <input required type="text" id="name-input" name="name" class="input">
                         </td>
                         <td class="form-td" id="form-td2">
                             <label for="email">Email:</label>
-                            <input required type="text" id="email-input" name="email">
+                            <input required type="text" id="email-input" name="email" class="input">
                         </td>
                     </tr>
                     <tr id="form-space-tr">
@@ -107,13 +108,13 @@
                         <td class="form-td" id="form-td4" colspan=2>
                             <input required class="radio" type="radio" name="rating" value="1">
                             <label class="radio-lable" for="rating">1 Star</label>
-                            <input class="radio"type="radio" name="rating" value="2">
+                            <input class="radio" type="radio" name="rating" value="2">
                             <label class="radio-lable" for="rating">2 Stars</label>
-                            <input class="radio"type="radio" name="rating" value="3">
+                            <input class="radio" type="radio" name="rating" value="3">
                             <label class="radio-lable" for="rating">3 Stars</label>
-                            <input class="radio"type="radio" name="rating" value="4">
+                            <input class="radio" type="radio" name="rating" value="4">
                             <label class="radio-lable" for="rating">4 Stars</label>
-                            <input class="radio"type="radio" name="rating" value="5">
+                            <input class="radio" type="radio" name="rating" value="5">
                             <label class="radio-lable" for="rating">5 Stars</label>
                         </td>
                     </tr>
@@ -123,7 +124,7 @@
                             <center>
                                 <label for="comment">Comment:</label>
                             </center>
-                            <textarea required name="comment" id="comment-area" cols="80" rows="10"></textarea>
+                            <textarea required name="comment" id="comment-area" cols="80" rows="10" class="input"></textarea>
                         </td>
                     </tr>
                     <tr id="form-tr5">
